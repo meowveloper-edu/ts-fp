@@ -1,0 +1,8 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/typescript-node
+    working_dir : /ts-fp 
+    volumes:
+      - ..:/ts-fp
+    command: sh -c "sleep infinity"
+  
